@@ -123,3 +123,12 @@ footer{
     text-align: center;
     font-size: 14px;
 }
+
+@media(min-width: 700px){
+    :root{
+        --background-image: url(assets/bg-desktop.jpg);
+    }
+    .light{
+        --background-image: url(assets/bg-desktop-light.jpg);
+    }
+}
